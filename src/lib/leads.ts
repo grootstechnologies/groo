@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { db } from "@/lib/db";
+import { sendLeadNotificationEmail } from "@/lib/email";
 
 export const LeadSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters").max(100),
@@ -68,10 +69,24 @@ export async function processLead(input: LeadInput) {
     console.warn("[LEAD_DB_SAVE_SKIPPED]", dbErr instanceof Error ? dbErr.message : dbErr);
   }
 
+  // 4. Send instant email notification via Resend to yusuf@g-roots.in
+  let emailSent = false;
+  try {
+    const emailRes = await sendLeadNotificationEmail({
+      leadId,
+      timestamp,
+      ...validated,
+    });
+    emailSent = emailRes.success;
+  } catch (emailErr) {
+    console.error("[LEAD_EMAIL_DISPATCH_ERROR]", emailErr);
+  }
+
   return {
     success: true,
     id: leadId,
     dbSaved,
+    emailSent,
     message: "Thank you! Our career counsellor will contact you within 4 hours.",
   };
 }
