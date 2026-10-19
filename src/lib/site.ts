@@ -35,7 +35,7 @@ export const SITE_WHATSAPP_URL =
 export const HYDERABAD_MAP_URL =
   "https://www.google.com/maps/place/Greenroots+-+Software+Training+%26+Placements/@17.4920475,78.393579,21z/data=!3m1!5s0x3bcb91921221fff5:0x26db1f11c8ebc89d!4m6!3m5!1s0x3bcb912467298147:0xf364ee7ffd62ef92!8m2!3d17.4920427!4d78.3935278!16s%2Fg%2F11w7f789j_";
 export const BENGALURU_MAP_URL =
-  "https://www.google.com/maps/place/Greenroots+Training+%26+Placements/@12.9166925,77.6516469,18.75z/data=!4m6!3m5!1s0x3bae1555bb754b9f:0x29b1db7a39d5a541!8m2!3d12.9165929!4d77.6516341";
+  "https://maps.app.goo.gl/SDNyCStiev5MH6cL8?g_st=aw";
 export const SITE_MAP_URL = HYDERABAD_MAP_URL;
 
 /* --------------------------- Emails ------------------------------- */
@@ -66,7 +66,7 @@ export const HYDERABAD_OFFICE = {
 
 export const BENGALURU_OFFICE = {
   id: "bengaluru",
-  label: "Bengaluru Office",
+  label: "Bengaluru HSR Office",
   city: "Bengaluru",
   streetAddress: "2nd floor, 804, 27th Main Rd, 1st Sector, HSR Layout",
   addressLocality: "Bengaluru",
