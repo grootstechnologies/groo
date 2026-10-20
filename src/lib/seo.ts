@@ -8,10 +8,10 @@
  */
 
 export const OG_IMAGE = {
-  url: "/og-image.png",
+  url: "/og-image-v2.png",
   width: 1200,
   height: 630,
   alt: "Greenroots Training & Placements — Education to Employment",
 } as const;
 
-export const TWITTER_IMAGE = "/og-image.png" as const;
+export const TWITTER_IMAGE = "/og-image-v2.png" as const;

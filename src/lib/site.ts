@@ -13,7 +13,7 @@
  *       Bengaluru       → adminblr@g-roots.in
  */
 
-export const SITE_URL = "https://grootstechnologies.com";
+export const SITE_URL = "https://www.grootstechnologies.com";
 export const SITE_NAME = "Greenroots Training & Placements";
 export const SITE_TAGLINE = "Education to Employment";
 

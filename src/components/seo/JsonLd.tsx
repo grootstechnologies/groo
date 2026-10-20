@@ -181,7 +181,7 @@ export function OrganizationJsonLd() {
     alternateName: "Greenroots Technologies",
     url: SITE_URL,
     logo: `${SITE_URL}/logos/groots-logo.png`,
-    image: `${SITE_URL}/og-image.png`,
+    image: `${SITE_URL}/og-image-v2.png`,
     description: `${SITE_NAME} — ${SITE_TAGLINE}. Job-ready training across nine tracks — DevSecOps, Data Analytics, Data Science, Business Analyst, Generative AI & Azure, ETL Testing, Power BI, Software Testing and SQL — with placement support in Hyderabad and Bengaluru.`,
     slogan: SITE_TAGLINE,
     email: EMAIL_HYDERABAD,
@@ -212,7 +212,7 @@ export function LocalBusinessJsonLd() {
     alternateName: "Greenroots Training Institute",
     url: SITE_URL,
     logo: `${SITE_URL}/logos/groots-logo.png`,
-    image: `${SITE_URL}/og-image.png`,
+    image: `${SITE_URL}/og-image-v2.png`,
     telephone: SITE_PHONE_DISPLAY,
     email: EMAIL_HYDERABAD,
     description: `${SITE_NAME} — ${SITE_TAGLINE}. Job-ready training in nine tracks — DevSecOps, Data Analytics, Data Science, Business Analyst, Generative AI & Azure, ETL Testing, Power BI, Software Testing and SQL — in Hyderabad and Bengaluru with placement support.`,
@@ -292,7 +292,7 @@ export function WebsiteJsonLd() {
     name: SITE_NAME,
     alternateName: "Greenroots",
     url: SITE_URL,
-    image: `${SITE_URL}/og-image.png`,
+    image: `${SITE_URL}/og-image-v2.png`,
     publisher: { "@id": `${SITE_URL}#organization` },
     inLanguage: "en-IN",
     potentialAction: {
@@ -338,7 +338,7 @@ export function WebPageSpeakableJsonLd({
     inLanguage: "en-IN",
     isPartOf: { "@id": `${SITE_URL}#website` },
     about: { "@id": `${SITE_URL}#organization` },
-    primaryImageOfPage: `${SITE_URL}/og-image.png`,
+    primaryImageOfPage: `${SITE_URL}/og-image-v2.png`,
     speakable: {
       "@type": "SpeakableSpecification",
       cssSelector: speakableSelectors,
@@ -482,7 +482,7 @@ export function ReviewsJsonLd({
     name: `${SITE_NAME} — Job-Ready Tech Training`,
     description: `${SITE_TAGLINE}. Real student placements across our nine tracks — DevSecOps, Data Analytics, Data Science, Business Analyst, Generative AI & Azure, ETL Testing, Power BI, Software Testing and SQL — in Hyderabad and Bengaluru.`,
     /* Google Product snippets require at least one image. */
-    image: [`${SITE_URL}/og-image.png`],
+    image: [`${SITE_URL}/og-image-v2.png`],
     brand: { "@type": "Brand", name: SITE_NAME },
     url: `${SITE_URL}/reviews/`,
     aggregateRating: {

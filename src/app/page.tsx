@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     url: "/",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image-v2.png",
         width: 1200,
         height: 630,
         alt: `${SITE_NAME} — ${SITE_TAGLINE}`,
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     title: `${SITE_NAME} — ${SITE_TAGLINE}`,
     description:
       "Job-ready DevSecOps, Data Analytics, and Data Science training in Hyderabad and Bengaluru with placement support.",
-    images: ["/og-image.png"],
+    images: ["/og-image-v2.png"],
   },
 };
 

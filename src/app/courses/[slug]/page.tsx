@@ -27,6 +27,7 @@ import { CurriculumDownloadButton } from "@/components/courses/CurriculumDownloa
 import { NEW_COURSES, COURSE_BY_SLUG, type Course } from "@/data/courses/curriculum";
 import { CourseJsonLd, BreadcrumbJsonLd, FaqJsonLd } from "@/components/seo/JsonLd";
 import { OG_IMAGE, TWITTER_IMAGE } from "@/lib/seo";
+import { SITE_URL } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -97,9 +98,9 @@ export default async function CourseDetailPage({
         />
         <BreadcrumbJsonLd
           items={[
-            { name: "Home", url: "https://grootstechnologies.com/" },
-            { name: "Courses", url: "https://grootstechnologies.com/courses/" },
-            { name: course.name, url: `https://grootstechnologies.com/courses/${course.slug}/` },
+            { name: "Home", url: `${SITE_URL}/` },
+            { name: "Courses", url: `${SITE_URL}/courses/` },
+            { name: course.name, url: `${SITE_URL}/courses/${course.slug}/` },
           ]}
         />
         <FaqJsonLd faqs={course.faqs} at={`/courses/${course.slug}/`} />

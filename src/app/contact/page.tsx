@@ -16,6 +16,7 @@ import {
   SITE_WHATSAPP_URL,
   HYDERABAD_OFFICE,
   BENGALURU_OFFICE,
+  SITE_URL,
 } from "@/lib/site";
 
 export default function ContactPage() {
@@ -157,7 +158,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="text-[11px] uppercase tracking-wider font-bold text-slate-400">Website</div>
-                    <a href="https://grootstechnologies.com" target="_blank" rel="noopener noreferrer" className="text-base sm:text-lg font-bold text-gray-900 hover:text-[#0878E8] transition-colors">
+                    <a href={SITE_URL} target="_blank" rel="noopener noreferrer" className="text-base sm:text-lg font-bold text-gray-900 hover:text-[#0878E8] transition-colors">
                       grootstechnologies.com
                     </a>
                   </div>

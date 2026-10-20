@@ -34,7 +34,7 @@ export default function PrivacyPage() {
             <div className="prose prose-emerald max-w-none text-slate-700 space-y-6 text-sm sm:text-base leading-relaxed">
               <p>
                 This policy explains what personal information Greenroots Technology Training Institute
-                (operating <a href="https://grootstechnologies.com" className="text-[#0878E8] font-medium underline">grootstechnologies.com</a>) collects through
+                (operating <a href="https://www.grootstechnologies.com" className="text-[#0878E8] font-medium underline">grootstechnologies.com</a>) collects through
                 its website forms, how we use it, and your rights under the
                 <strong className="text-gray-900"> Digital Personal Data Protection Act, 2023 (DPDP)</strong> of India.
               </p>

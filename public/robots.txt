@@ -34,7 +34,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://grootstechnologies.com/sitemap.xml
+Sitemap: https://www.grootstechnologies.com/sitemap.xml
 
 # Host directive (preferred canonical host)
-Host: https://grootstechnologies.com
+Host: https://www.grootstechnologies.com
